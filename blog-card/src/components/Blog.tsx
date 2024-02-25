@@ -1,9 +1,11 @@
+import illustration from "../assets/images/illustration-article.svg";
+import avatar from "../assets/images/image-avatar.webp";
 
 function Blog() {
   return (
     <div className="blog-card">
         <div className='card-image-container'>
-        <img className="card-image" alt="illustration" src='src\assets\images\illustration-article.svg'/>
+        <img className="card-image" alt="illustration" src={illustration}/>
         </div>
         <div className='card-details'>
         <div className='card-action-button-container'>
@@ -20,7 +22,7 @@ function Blog() {
         </div>
         <div className='card-footer'>
             <div className='card-author'>
-                <img  className="avatar-image" alt='avatar' src="src/assets/images/image-avatar.webp"/>
+                <img  className="avatar-image" alt='avatar' src={avatar}/>
                 <p className='author-name'>Greg Hooper</p>
             </div>
         </div>
