@@ -7,5 +7,28 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", sans-serif;
+}
+
+ul li::marker {
+  color: #e56743;
+}
+
+code {
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+pre {
+  padding: 1.5rem 1rem;
+  background-color: #2b2c30;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-left: 0;
+}
+
+strong {
+  font-weight: normal;
+  color: #e3e3e3de;
 }
