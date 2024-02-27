@@ -1,13 +1,51 @@
 body {
   background-color: #141719;
   font-weight: lighter;
+  color: rgb(193, 196, 203);
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   font-family: "Roboto Slab", sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+  color: rgb(193, 196, 203);
+}
+
+blockquote {
+  padding: 1.5rem 1rem;
+  background-color: #2b2c30;
+  border-left: #e56743 5px solid;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
 }
 
 ul li::marker {
@@ -30,5 +68,28 @@ pre {
 
 strong {
   font-weight: normal;
-  color: #e3e3e3de;
+  color: rgb(193, 196, 203);
+}
+
+.markdown-config {
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.markdown-textarea {
+  height: 98.7vh;
+  width: 45vw;
+  margin-right: 2rem;
+  background-color: #151619;
+  color: rgb(193, 196, 203);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.flex-markdown {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
 }

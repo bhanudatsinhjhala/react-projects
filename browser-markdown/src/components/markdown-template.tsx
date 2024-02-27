@@ -1,12 +1,16 @@
 import MarkdownConfig from "./MarkdownConfig";
 
-function Markdown() {
+function Markdown(props: IMarkdownProps) {
   return (
-    <div>
-      <MarkdownConfig />
+    <div className="markdown-config">
+      <MarkdownConfig data={props.data} />
       <p>Markdown</p>
     </div>
   );
 }
 
 export default Markdown;
+
+interface IMarkdownProps {
+  data: string;
+}
