@@ -4,9 +4,17 @@ function MarkdownEditor(props: Readonly<IMarkdownProps>) {
   };
   return (
     <div>
-      <textarea className="markdown-textarea" onChange={(e) => handleChange(e)}>
-        {props.data}
-      </textarea>
+      <div className="markdown-heading">
+        <h6>MARKDOWN</h6>
+      </div>
+      <div>
+        <textarea
+          className="markdown-textarea"
+          onChange={(e) => handleChange(e)}
+        >
+          {props.data}
+        </textarea>
+      </div>
     </div>
   );
 }

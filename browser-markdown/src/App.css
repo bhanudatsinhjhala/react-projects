@@ -6,6 +6,7 @@ body {
 
 #root {
   font-family: "Roboto Slab", sans-serif;
+  height: 100vh;
 }
 
 h1 {
@@ -72,15 +73,16 @@ strong {
 }
 
 .markdown-config {
-  max-height: 100vh;
-  overflow-y: auto;
+  max-height: 92vh;
+  overflow-y: scroll;
   overflow-x: hidden;
+  margin-left: 1rem;
 }
 
 .markdown-textarea {
-  height: 98.7vh;
+  height: 92vh;
   width: 45vw;
-  margin-right: 2rem;
+  margin-left: 1rem;
   background-color: #151619;
   color: rgb(193, 196, 203);
   font-size: 1rem;
@@ -89,7 +91,25 @@ strong {
 }
 
 .flex-markdown {
-  height: 100vh;
+  height: inherit;
   display: flex;
   justify-content: space-between;
+}
+
+.markdown-heading {
+  width: inherit;
+  background-color: #1d1f22;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.markdown-heading h6 {
+  margin: 4px auto;
+  margin-left: 1rem;
+}
+
+.preview-heading {
+  width: 100%;
+  margin-right: 0;
+  border-left: 1px solid rgb(193, 196, 203);
 }
