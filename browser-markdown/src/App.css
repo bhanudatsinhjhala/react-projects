@@ -1,0 +1,132 @@
+body {
+  background-color: #141719;
+  font-weight: lighter;
+  color: rgb(193, 196, 203);
+}
+
+#root {
+  font-family: "Roboto Slab", sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+  color: rgb(193, 196, 203);
+}
+
+blockquote {
+  padding: 1.5rem 1rem;
+  background-color: #2b2c30;
+  border-left: #e56743 5px solid;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+ul li::marker {
+  color: #e56743;
+}
+
+code {
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+pre {
+  padding: 1.5rem 1rem;
+  background-color: #2b2c30;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-left: 0;
+}
+
+strong {
+  font-weight: normal;
+  color: rgb(193, 196, 203);
+}
+
+.markdown-config {
+  max-height: 80.5vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-left: 1rem;
+}
+
+.markdown-textarea {
+  height: 80.5vh;
+  width: 45vw;
+  margin-left: 1rem;
+  background-color: #151619;
+  color: rgb(193, 196, 203);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.flex-markdown {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.markdown-heading {
+  width: inherit;
+  background-color: #1d1f22;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.markdown-heading h6 {
+  margin: 4px auto;
+  margin-left: 1rem;
+}
+
+.preview-heading {
+  width: 100%;
+  margin-right: 0;
+  border-left: 1px solid rgb(193, 196, 203);
+}
+
+.navbar-logo {
+  letter-spacing: 0.3rem;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.MuiDrawer-paper {
+  background-color: #2b2d31 !important;
+  color: rgb(193, 196, 203) !important;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none !important;
+}
